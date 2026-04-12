@@ -1,0 +1,26 @@
+# Sensitive data - NEVER COMMIT
+data/
+logs/
+__pycache__/
+*.pkl
+*.db
+*.jsonl
+*.csv
+*.npy
+*.tar.gz
+*.zip
+state.json
+trade_state*.json
+
+# Credentials (NEVER commit)
+*_key.txt
+*_creds.json
+.env
+wallet.json
+
+# Python
+.venv/
+venv/
+*.pyc
+*.pyo
+*.egg-info/
